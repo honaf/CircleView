@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:honaf="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.honaf.circleview.MainActivity">
+
+    <com.honaf.circleview.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        honaf:circle_color="#008800"
+        android:background="@color/colorPrimaryDark" />
+</RelativeLayout>
